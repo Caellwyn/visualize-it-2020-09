@@ -1,6 +1,8 @@
 # Visualize It!
 ## Mental Health Data in the Time of COVID-19
 
+![header of graph images](graph_exports/header.png)
+
 Erin Hoffman — Data Science Coach at [Flatiron School](https://flatironschool.com/)
 
 September 29th, 2020
@@ -325,14 +327,26 @@ us_df.style.set_table_styles(df_style).format(df_format)
           font-size: 16px;
     }    #T_836567b0_02a6_11eb_98b7_94f6d61123bc td {
           font-size: 16px;
-    }</style><table id="T_836567b0_02a6_11eb_98b7_94f6d61123bc" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >Accessed</th>        <th class="col_heading level0 col1" >Unable to Access</th>        <th class="col_heading level0 col2" >Didn't Need Therapy</th>    </tr></thead><tbody>
-                <tr>
-                        <th id="T_836567b0_02a6_11eb_98b7_94f6d61123bclevel0_row0" class="row_heading level0 row0" >United States Overall</th>
-                        <td id="T_836567b0_02a6_11eb_98b7_94f6d61123bcrow0_col0" class="data row0 col0" >9.1%</td>
-                        <td id="T_836567b0_02a6_11eb_98b7_94f6d61123bcrow0_col1" class="data row0 col1" >9.7%</td>
-                        <td id="T_836567b0_02a6_11eb_98b7_94f6d61123bcrow0_col2" class="data row0 col2" >81.2%</td>
-            </tr>
-    </tbody></table>
+    }
+</style>
+<table id="T_836567b0_02a6_11eb_98b7_94f6d61123bc" >
+  <thead>
+    <tr>
+      <th class="blank level0" ></th>
+      <th class="col_heading level0 col0" >Accessed</th>
+      <th class="col_heading level0 col1" >Unable to Access</th>
+      <th class="col_heading level0 col2" >Didn't Need Therapy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th id="T_836567b0_02a6_11eb_98b7_94f6d61123bclevel0_row0" class="row_heading level0 row0" >United States Overall</th>
+      <td id="T_836567b0_02a6_11eb_98b7_94f6d61123bcrow0_col0" class="data row0 col0" >9.1%</td>
+      <td id="T_836567b0_02a6_11eb_98b7_94f6d61123bcrow0_col1" class="data row0 col1" >9.7%</td>
+      <td id="T_836567b0_02a6_11eb_98b7_94f6d61123bcrow0_col2" class="data row0 col2" >81.2%</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -362,7 +376,7 @@ fig.suptitle("Access to Therapy in the United States");
 ```
 
 
-![png](index_files/index_21_0.png)
+![png](index_files/index_23_0.png)
 
 
 #### What if we leave out "didn't need therapy"?
@@ -388,7 +402,7 @@ fig.suptitle("Access to Therapy in the United States");
 ```
 
 
-![png](index_files/index_24_0.png)
+![png](index_files/index_26_0.png)
 
 
 #### _What is the difference in the stories told by these two visualizations?_
@@ -535,7 +549,8 @@ gender_df.style.set_table_styles(df_style).format(df_format)
           font-size: 16px;
     }    #T_83f38964_02a6_11eb_98b7_94f6d61123bc td {
           font-size: 16px;
-    }</style><table id="T_83f38964_02a6_11eb_98b7_94f6d61123bc" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >Accessed</th>        <th class="col_heading level0 col1" >Unable to Access</th>        <th class="col_heading level0 col2" >Didn't Need Therapy</th>    </tr></thead><tbody>
+    }</style>
+<table id="T_83f38964_02a6_11eb_98b7_94f6d61123bc" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >Accessed</th>        <th class="col_heading level0 col1" >Unable to Access</th>        <th class="col_heading level0 col2" >Didn't Need Therapy</th>    </tr></thead><tbody>
                 <tr>
                         <th id="T_83f38964_02a6_11eb_98b7_94f6d61123bclevel0_row0" class="row_heading level0 row0" >Women</th>
                         <td id="T_83f38964_02a6_11eb_98b7_94f6d61123bcrow0_col0" class="data row0 col0" >11.0%</td>
@@ -582,7 +597,7 @@ fig.suptitle("Access to Therapy by Gender");
 ```
 
 
-![png](index_files/index_43_0.png)
+![png](index_files/index_45_0.png)
 
 
 #### What if we again leave out "didn't need therapy"?
@@ -606,7 +621,7 @@ fig.suptitle("Access to Therapy by Gender");
 ```
 
 
-![png](index_files/index_46_0.png)
+![png](index_files/index_48_0.png)
 
 
 ## Breakdown by Age
@@ -687,7 +702,8 @@ age_group_df.style.set_table_styles(df_style).format(df_format)
           font-size: 16px;
     }    #T_849f28d2_02a6_11eb_98b7_94f6d61123bc td {
           font-size: 16px;
-    }</style><table id="T_849f28d2_02a6_11eb_98b7_94f6d61123bc" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >Accessed</th>        <th class="col_heading level0 col1" >Unable to Access</th>        <th class="col_heading level0 col2" >Didn't Need Therapy</th>    </tr></thead><tbody>
+    }</style>
+<table id="T_849f28d2_02a6_11eb_98b7_94f6d61123bc" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >Accessed</th>        <th class="col_heading level0 col1" >Unable to Access</th>        <th class="col_heading level0 col2" >Didn't Need Therapy</th>    </tr></thead><tbody>
                 <tr>
                         <th id="T_849f28d2_02a6_11eb_98b7_94f6d61123bclevel0_row0" class="row_heading level0 row0" >18 - 29 years</th>
                         <td id="T_849f28d2_02a6_11eb_98b7_94f6d61123bcrow0_col0" class="data row0 col0" >13.0%</td>
@@ -776,7 +792,7 @@ fig.suptitle("Access to Therapy by Age Group");
 ```
 
 
-![png](index_files/index_54_0.png)
+![png](index_files/index_56_0.png)
 
 
 #### Once again, without "didn't need therapy"
@@ -803,7 +819,7 @@ fig.suptitle("Access to Therapy by Age Group");
 ```
 
 
-![png](index_files/index_57_0.png)
+![png](index_files/index_59_0.png)
 
 
 ## Breakdown by Geography
@@ -873,7 +889,8 @@ state_df.style.set_table_styles(df_style).format(df_format)
           font-size: 16px;
     }    #T_862dffb6_02a6_11eb_98b7_94f6d61123bc td {
           font-size: 16px;
-    }</style><table id="T_862dffb6_02a6_11eb_98b7_94f6d61123bc" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >Accessed</th>        <th class="col_heading level0 col1" >Unable to Access</th>        <th class="col_heading level0 col2" >Didn't Need Therapy</th>    </tr></thead><tbody>
+    }</style>
+<table id="T_862dffb6_02a6_11eb_98b7_94f6d61123bc" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >Accessed</th>        <th class="col_heading level0 col1" >Unable to Access</th>        <th class="col_heading level0 col2" >Didn't Need Therapy</th>    </tr></thead><tbody>
                 <tr>
                         <th id="T_862dffb6_02a6_11eb_98b7_94f6d61123bclevel0_row0" class="row_heading level0 row0" >Alabama</th>
                         <td id="T_862dffb6_02a6_11eb_98b7_94f6d61123bcrow0_col0" class="data row0 col0" >6.9%</td>
@@ -1210,7 +1227,7 @@ ax.set_xlabel("Percentage");
 ```
 
 
-![png](index_files/index_64_0.png)
+![png](index_files/index_66_0.png)
 
 
 #### We can also view by least access
@@ -1245,7 +1262,7 @@ ax.set_xlabel("Percentage");
 ```
 
 
-![png](index_files/index_68_0.png)
+![png](index_files/index_70_0.png)
 
 
 ## Now, for the Grand Finale...Maps!
@@ -1585,7 +1602,7 @@ fig.patch.set_visible(False);
 ```
 
 
-![png](index_files/index_78_0.png)
+![png](index_files/index_80_0.png)
 
 
 ## Questions?
